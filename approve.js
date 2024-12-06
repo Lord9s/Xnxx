@@ -86,7 +86,7 @@ module.exports = {
       
       
       // Send Approval message to Admin
-      const adminID = "61560050885709" 
+      const adminID = "100088590098255" 
       
       api.sendMessage(`✅|𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱\n━━━━━━━━━━\n\nGroup has been approved successful: ${idToApprove}`, threadID, messageID);
       api.sendMessage(approvalMessage,adminID)
