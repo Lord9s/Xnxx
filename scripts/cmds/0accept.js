@@ -80,7 +80,7 @@ module.exports = {
         } else {
           success.push(newTargetIDs[i].node.name);
 
-          const welcomeMessage = `Hello ${newTargetIDs[i].node.name}, I'am Rômeo Bot.😺\nMy Owner:- Rômeo\nMy Prefix : ( + ) \nType +help To See My All Commands.\nType +supportgc For Join My Support Group 😇`;
+          const welcomeMessage = `Hello ${newTargetIDs[i].node.name}, I'am Jayden Bot.😺\nMy Owners:- Rômeo And jaysen\nMy Prefix : ( - ) \nType -help To See All  My Available Commands.\nType -supportgc to Join My Support Group 😇. Thank You.`;
           api.sendMessage(welcomeMessage, newTargetIDs[i].node.id);
         }
       } catch (e) {
